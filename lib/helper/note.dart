@@ -3,8 +3,7 @@ class Note {
   int _id;
   String _title;
   String _content;
-  String _imagePath;
-                                                                                                                                Note(this._id, this._title, this._content, this._imagePath);
+  String _imagePath;Note(this._id, this._title, this._content, this._imagePath);
                                                                                                                                 int get id => _id;
                                                                                                                                 String get title => _title;
                                                                                                                                 String get content => _content;
